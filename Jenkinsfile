@@ -10,7 +10,7 @@ pipeline{
                     myLogger.warning 'Build stage Ending'
                     string_manipulator.string_reverse 'ReverseMe'
                     string_manipulator.uppercase 'make Me Big!'
-                    sayHello.call 'Custom Step'
+                    sayHello 'Custom Step'
                 }
             }
         }

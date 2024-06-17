@@ -11,7 +11,7 @@ pipeline{
                     string_manipulator.string_reverse 'ReverseMe'
                     string_manipulator.uppercase 'make Me Big!'
                 }
-                sayHell 'Custom Step'
+                sayHello 'Custom Step'
             }
         }
     }

@@ -12,6 +12,9 @@ pipeline{
                     string_manipulator.uppercase 'make Me Big!'
                 }
                 sayHello 'Custom Step'
+                block {
+                    echo 'My Step! Using Closure'
+                }
             }
         }
     }
